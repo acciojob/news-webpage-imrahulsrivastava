@@ -1,16 +1,98 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: #f5f5f5;
+      }
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+      .center {
+        text-align: center;
+        background-color: #011e29;
+        color: white;
+        padding: 5px 0px;
+      }
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+      .main-container {
+        display: flex;
+        justify-content: center;
+      }
 
-</body>
+      section {
+        margin: 10px 2px 0px 2px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 20px;
+        text-align: center;
+      }
 
+      section:first-child {
+        margin-left: 50px;
+      }
+
+      section:last-child {
+        margin-right: 50px;
+      }
+
+      img {
+        width: 250px;
+        height: 140px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- the entire body must be written by student -->
+
+    <header class="center">
+      <h1>Shaw's News</h1>
+    </header>
+
+    <main>
+      <div class="main-container">
+        <section>
+          <div>
+            <h3>Latest News Articles</h3>
+            <ul>
+              <li>Article 1</li>
+              <li>Article 2</li>
+              <li>Article 3</li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h2>Main Article</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+              delectus placeat eius et nam libero beatae fuga provident, quidem
+              quos, eligendi repudiandae quas, vitae repellat dolor officia
+              alias veniam cum?
+            </p>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3>Pictorial News</h3>
+            <img
+              src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg"
+              alt="People walking on the bridge"
+            />
+            <img
+              src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG"
+              alt="Gautam Adani"
+            />
+            <img
+              src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG"
+              alt="A security guard helping a woman enter a car"
+            />
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
